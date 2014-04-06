@@ -10,4 +10,6 @@
 
 @interface SEExampleViewController : UIViewController
 
+- (void)showTutorial;
+
 @end

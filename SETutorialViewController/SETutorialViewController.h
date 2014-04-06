@@ -17,6 +17,8 @@
 
 -(id)initWithImages:(NSArray*)images;
 
+// You should over ride this.
+// It exist for adjust how to display this viewController.
 -(void)endTutorial:(UITapGestureRecognizer*)gestureRecognizer;
 
 @end

@@ -19,6 +19,17 @@
 		F462C63418F127FD00F72A94 /* SETutorialViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F462C63018F1277A00F72A94 /* SETutorialViewControllerTests.m */; };
 		F462C63518F1280A00F72A94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F462C62C18F1277A00F72A94 /* InfoPlist.strings */; };
 		F462C63918F1294C00F72A94 /* SEExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F462C63818F1294C00F72A94 /* SEExampleViewController.m */; };
+		F47BED3B18F12BA700CB8129 /* tutorial-01-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3118F12BA700CB8129 /* tutorial-01-568h@2x.jpg */; };
+		F47BED3C18F12BA700CB8129 /* tutorial-01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3218F12BA700CB8129 /* tutorial-01@2x.jpg */; };
+		F47BED3D18F12BA700CB8129 /* tutorial-02-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3318F12BA700CB8129 /* tutorial-02-568h@2x.jpg */; };
+		F47BED3E18F12BA700CB8129 /* tutorial-02@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3418F12BA700CB8129 /* tutorial-02@2x.jpg */; };
+		F47BED3F18F12BA700CB8129 /* tutorial-03-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3518F12BA700CB8129 /* tutorial-03-568h@2x.jpg */; };
+		F47BED4018F12BA700CB8129 /* tutorial-03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3618F12BA700CB8129 /* tutorial-03@2x.jpg */; };
+		F47BED4118F12BA700CB8129 /* tutorial-04-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3718F12BA700CB8129 /* tutorial-04-568h@2x.jpg */; };
+		F47BED4218F12BA700CB8129 /* tutorial-04@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3818F12BA700CB8129 /* tutorial-04@2x.jpg */; };
+		F47BED4318F12BA700CB8129 /* tutorial-05-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3918F12BA700CB8129 /* tutorial-05-568h@2x.jpg */; };
+		F47BED4418F12BA700CB8129 /* tutorial-05@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47BED3A18F12BA700CB8129 /* tutorial-05@2x.jpg */; };
+		F47BED4718F12C4700CB8129 /* SEExampleTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47BED4618F12C4700CB8129 /* SEExampleTutorialViewController.m */; };
 		F4E6429E18F120F30022AF2C /* SETutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6429818F120F30022AF2C /* SETutorialViewController.m */; };
 		F4E642AF18F121520022AF2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E642A218F121510022AF2C /* Images.xcassets */; };
 		F4E642B018F121520022AF2C /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E642A418F121510022AF2C /* SEAppDelegate.m */; };
@@ -48,6 +59,18 @@
 		F462C63018F1277A00F72A94 /* SETutorialViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETutorialViewControllerTests.m; sourceTree = "<group>"; };
 		F462C63718F1294C00F72A94 /* SEExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEExampleViewController.h; sourceTree = "<group>"; };
 		F462C63818F1294C00F72A94 /* SEExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEExampleViewController.m; sourceTree = "<group>"; };
+		F47BED3118F12BA700CB8129 /* tutorial-01-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-01-568h@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3218F12BA700CB8129 /* tutorial-01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-01@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3318F12BA700CB8129 /* tutorial-02-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-02-568h@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3418F12BA700CB8129 /* tutorial-02@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-02@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3518F12BA700CB8129 /* tutorial-03-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-03-568h@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3618F12BA700CB8129 /* tutorial-03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-03@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3718F12BA700CB8129 /* tutorial-04-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-04-568h@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3818F12BA700CB8129 /* tutorial-04@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-04@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3918F12BA700CB8129 /* tutorial-05-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-05-568h@2x.jpg"; sourceTree = "<group>"; };
+		F47BED3A18F12BA700CB8129 /* tutorial-05@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tutorial-05@2x.jpg"; sourceTree = "<group>"; };
+		F47BED4518F12C4700CB8129 /* SEExampleTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEExampleTutorialViewController.h; sourceTree = "<group>"; };
+		F47BED4618F12C4700CB8129 /* SEExampleTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEExampleTutorialViewController.m; sourceTree = "<group>"; };
 		F4E6429718F120F30022AF2C /* SETutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETutorialViewController.h; sourceTree = "<group>"; };
 		F4E6429818F120F30022AF2C /* SETutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETutorialViewController.m; sourceTree = "<group>"; };
 		F4E642A218F121510022AF2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -129,8 +152,28 @@
 			children = (
 				F462C63718F1294C00F72A94 /* SEExampleViewController.h */,
 				F462C63818F1294C00F72A94 /* SEExampleViewController.m */,
+				F47BED4518F12C4700CB8129 /* SEExampleTutorialViewController.h */,
+				F47BED4618F12C4700CB8129 /* SEExampleTutorialViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F47BED3018F12BA700CB8129 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F47BED3118F12BA700CB8129 /* tutorial-01-568h@2x.jpg */,
+				F47BED3218F12BA700CB8129 /* tutorial-01@2x.jpg */,
+				F47BED3318F12BA700CB8129 /* tutorial-02-568h@2x.jpg */,
+				F47BED3418F12BA700CB8129 /* tutorial-02@2x.jpg */,
+				F47BED3518F12BA700CB8129 /* tutorial-03-568h@2x.jpg */,
+				F47BED3618F12BA700CB8129 /* tutorial-03@2x.jpg */,
+				F47BED3718F12BA700CB8129 /* tutorial-04-568h@2x.jpg */,
+				F47BED3818F12BA700CB8129 /* tutorial-04@2x.jpg */,
+				F47BED3918F12BA700CB8129 /* tutorial-05-568h@2x.jpg */,
+				F47BED3A18F12BA700CB8129 /* tutorial-05@2x.jpg */,
+			);
+			name = Images;
+			path = "Supporting Files/Images";
 			sourceTree = "<group>";
 		};
 		F4E6429618F120F30022AF2C /* SETutorialViewController */ = {
@@ -149,6 +192,7 @@
 				F4E642A418F121510022AF2C /* SEAppDelegate.m */,
 				F462C63618F1291600F72A94 /* Controllers */,
 				F4E642A518F121510022AF2C /* Supporting Files */,
+				F47BED3018F12BA700CB8129 /* Images */,
 				F4E642A218F121510022AF2C /* Images.xcassets */,
 			);
 			path = Example;
@@ -241,10 +285,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47BED4118F12BA700CB8129 /* tutorial-04-568h@2x.jpg in Resources */,
 				F462C62318F126C400F72A94 /* InfoPlist.strings in Resources */,
 				F462C63218F1277A00F72A94 /* SETutorialViewControllerTests-Info.plist in Resources */,
+				F47BED3B18F12BA700CB8129 /* tutorial-01-568h@2x.jpg in Resources */,
+				F47BED4018F12BA700CB8129 /* tutorial-03@2x.jpg in Resources */,
+				F47BED4418F12BA700CB8129 /* tutorial-05@2x.jpg in Resources */,
 				F462C63118F1277A00F72A94 /* InfoPlist.strings in Resources */,
 				F4E642AF18F121520022AF2C /* Images.xcassets in Resources */,
+				F47BED3C18F12BA700CB8129 /* tutorial-01@2x.jpg in Resources */,
+				F47BED4318F12BA700CB8129 /* tutorial-05-568h@2x.jpg in Resources */,
+				F47BED4218F12BA700CB8129 /* tutorial-04@2x.jpg in Resources */,
+				F47BED3E18F12BA700CB8129 /* tutorial-02@2x.jpg in Resources */,
+				F47BED3D18F12BA700CB8129 /* tutorial-02-568h@2x.jpg in Resources */,
+				F47BED3F18F12BA700CB8129 /* tutorial-03-568h@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +319,7 @@
 			files = (
 				F4E642B018F121520022AF2C /* SEAppDelegate.m in Sources */,
 				F4E642B118F121520022AF2C /* main.m in Sources */,
+				F47BED4718F12C4700CB8129 /* SEExampleTutorialViewController.m in Sources */,
 				F4E6429E18F120F30022AF2C /* SETutorialViewController.m in Sources */,
 				F462C63918F1294C00F72A94 /* SEExampleViewController.m in Sources */,
 			);

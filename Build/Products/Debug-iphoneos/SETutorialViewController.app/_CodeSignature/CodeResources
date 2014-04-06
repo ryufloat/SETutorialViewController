@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+FSXclnN49zcGzyCSYzD3R+Un3A=
+		ej/DWTSJkKwW1rrgb+3aq/i6vmo=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -23,13 +23,53 @@
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>tutorial-01-568h@2x.jpg</key>
+		<data>
+		wYQw7G5fpY+GHfM1RfbKkBbq9rc=
+		</data>
+		<key>tutorial-01@2x.jpg</key>
+		<data>
+		iy2MxLV1O5e+q25w9P7Ep2dPRxw=
+		</data>
+		<key>tutorial-02-568h@2x.jpg</key>
+		<data>
+		OhUtOssGpyxhC5sRThIC8qrdYYw=
+		</data>
+		<key>tutorial-02@2x.jpg</key>
+		<data>
+		KrHwjqe7fjMy+ncj1/RMrGVJvrY=
+		</data>
+		<key>tutorial-03-568h@2x.jpg</key>
+		<data>
+		1Sihi8c7IfQ/JHPKlU8bDBU2XSE=
+		</data>
+		<key>tutorial-03@2x.jpg</key>
+		<data>
+		g/IVdqOmiy7gFUponGyDg+uyGao=
+		</data>
+		<key>tutorial-04-568h@2x.jpg</key>
+		<data>
+		mowmYgfbGbonJObD8Oy6IIGFzDc=
+		</data>
+		<key>tutorial-04@2x.jpg</key>
+		<data>
+		oa30vlJMzoAAXvRrFkYdH77sSh8=
+		</data>
+		<key>tutorial-05-568h@2x.jpg</key>
+		<data>
+		hSI60lk2VTWPwcygGThY8iGvF/0=
+		</data>
+		<key>tutorial-05@2x.jpg</key>
+		<data>
+		fCg7UJXdBT4HJktP0smPHyAcuk4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+FSXclnN49zcGzyCSYzD3R+Un3A=
+		ej/DWTSJkKwW1rrgb+3aq/i6vmo=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -46,6 +86,46 @@
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>tutorial-01-568h@2x.jpg</key>
+		<data>
+		wYQw7G5fpY+GHfM1RfbKkBbq9rc=
+		</data>
+		<key>tutorial-01@2x.jpg</key>
+		<data>
+		iy2MxLV1O5e+q25w9P7Ep2dPRxw=
+		</data>
+		<key>tutorial-02-568h@2x.jpg</key>
+		<data>
+		OhUtOssGpyxhC5sRThIC8qrdYYw=
+		</data>
+		<key>tutorial-02@2x.jpg</key>
+		<data>
+		KrHwjqe7fjMy+ncj1/RMrGVJvrY=
+		</data>
+		<key>tutorial-03-568h@2x.jpg</key>
+		<data>
+		1Sihi8c7IfQ/JHPKlU8bDBU2XSE=
+		</data>
+		<key>tutorial-03@2x.jpg</key>
+		<data>
+		g/IVdqOmiy7gFUponGyDg+uyGao=
+		</data>
+		<key>tutorial-04-568h@2x.jpg</key>
+		<data>
+		mowmYgfbGbonJObD8Oy6IIGFzDc=
+		</data>
+		<key>tutorial-04@2x.jpg</key>
+		<data>
+		oa30vlJMzoAAXvRrFkYdH77sSh8=
+		</data>
+		<key>tutorial-05-568h@2x.jpg</key>
+		<data>
+		hSI60lk2VTWPwcygGThY8iGvF/0=
+		</data>
+		<key>tutorial-05@2x.jpg</key>
+		<data>
+		fCg7UJXdBT4HJktP0smPHyAcuk4=
 		</data>
 	</dict>
 	<key>rules</key>

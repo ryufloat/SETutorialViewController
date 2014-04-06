@@ -8,7 +8,7 @@
 
 #import "SEExampleViewController.h"
 
-#import "SETutorialViewController.h"
+#import "SEExampleTutorialViewController.h"
 
 @interface SEExampleViewController ()
 
@@ -33,7 +33,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 40.0f, self.view.frame.size.width, 30.0f)];
+    label.backgroundColor = [UIColor lightGrayColor];
+    label.text = @"Show Tutorial using ...";
+    label.textColor = [UIColor blackColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0.0f, 150.0f, self.view.frame.size.width, 100.0f);
+    button.backgroundColor = [UIColor lightGrayColor];
+    [button setTitle:@"-presentViewController:\t\t\nanimated:\t\t\ncompletion" forState:UIControlStateNormal];
+    button.titleLabel.numberOfLines = 3;
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor cyanColor] forState:UIControlStateHighlighted];
+    [button addTarget:self action:@selector(showTutorial) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,15 +58,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)showTutorial
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    NSMutableArray *tutorialImages = [NSMutableArray array];
+    if ([UIScreen mainScreen].bounds.size.height == 568.0f) {
+        for (NSUInteger i = 1; i <= 5; i++) {
+            [tutorialImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"tutorial-%02ld-568h.jpg", i]]];
+        }
+    } else {
+        for (NSUInteger i = 1; i <= 5; i++) {
+            [tutorialImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"tutorial-%02ld.jpg", i]]];
+        }
+    }
+    
+    SEExampleTutorialViewController *tutorialViewController = [[SEExampleTutorialViewController alloc] initWithImages:tutorialImages];
+    [self presentViewController:tutorialViewController animated:YES completion:nil];
 }
-*/
 
 @end
