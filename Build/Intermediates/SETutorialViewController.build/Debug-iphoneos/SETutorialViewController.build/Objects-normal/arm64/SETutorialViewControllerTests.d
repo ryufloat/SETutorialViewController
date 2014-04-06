@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewControllerTests/SETutorialViewControllerTests.m
