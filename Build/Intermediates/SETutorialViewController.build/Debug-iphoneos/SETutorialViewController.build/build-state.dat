@@ -1,914 +1,0 @@
-TSETutorialViewController
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist
-cProcessPCH /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch Example/Supporting\ Files/SETutorialViewController-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController normal arm64
-cCpResource Example/Supporting\ Files/Images/tutorial-04-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg
-cCopyStringsFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings Example/Supporting\ Files/en.lproj/InfoPlist.strings
-cCopyStringsFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings
-cCopyPlistFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist
-cCpResource Example/Supporting\ Files/Images/tutorial-01-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-03@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-05@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-01@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-05-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-04@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-02@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-02-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg
-cCpResource Example/Supporting\ Files/Images/tutorial-03-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg
-cCompileAssetCatalog /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets
-cProcessInfoPlistFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/SETutorialViewController-Info.plist
-cGenerateDSYMFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController
-cProcessProductPackaging /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision
-cTouch /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent
-cCodeSign /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c0000000053119F860000000000000132
-t1393663878
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c0000000053358A540000000000000094
-t1396017748
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c0000000053358A540000000000000096
-t1396017748
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c0000000053358A54000000000000036B
-t1396017748
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053358A55000000000000019E
-t1396017749
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000053358A57000000000063A500
-t1396017751
-s6530304
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000053358A58000000000079C660
-t1396017752
-s7980640
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000053358A5800000000004D7BC0
-t1396017752
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c0000000053358A580000000000433410
-t1396017752
-s4404240
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c0000000053358A590000000000306EF0
-t1396017753
-s3174128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c0000000053358A58000000000006DCD0
-t1396017752
-s449744
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000053358A5A0000000000A90C10
-t1396017754
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c0000000053358A5B00000000000417E0
-t1396017755
-s268256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000053358A5B0000000000649DB0
-t1396017755
-s6593968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-c0000000053358A5B0000000000186D60
-t1396017755
-s1600864
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000053358A610000000002759920
-t1396017761
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c0000000053358A660000000000385D50
-t1396017766
-s3693904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-c0000000053358A6A000000000001E300
-t1396017770
-s123648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-c0000000053358A6A000000000055EFE0
-t1396017770
-s5631968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-c0000000053358A6A000000000002A880
-t1396017770
-s174208
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-c0000000053358A6A00000000000458C0
-t1396017770
-s284864
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-c0000000053358A6A000000000003E3E0
-t1396017770
-s254944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-c0000000053358A6A000000000002B130
-t1396017770
-s176432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-c0000000053358A6A00000000000E1FD0
-t1396017770
-s925648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-c0000000053358A6A00000000000A2A70
-t1396017770
-s666224
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-c0000000053358A6A000000000001E8A0
-t1396017770
-s125088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-c0000000053358A6A0000000000034380
-t1396017770
-s213888
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-c0000000053358A6A0000000000022F30
-t1396017770
-s143152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-c0000000053358A6A000000000001E2A0
-t1396017770
-s123552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-c0000000053358A6A0000000000052520
-t1396017770
-s337184
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-c0000000053358A6A0000000000015F20
-t1396017770
-s89888
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-c0000000053358A6B00000000001B90D0
-t1396017771
-s1806544
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-c0000000053358A6A000000000001F170
-t1396017770
-s127344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-c0000000053358A6A000000000002FCF0
-t1396017770
-s195824
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-c0000000053358A6A000000000008A150
-t1396017770
-s565584
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-c0000000053358A6A00000000000B60E0
-t1396017770
-s745696
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-c0000000053358A6A0000000000078720
-t1396017770
-s493344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-c0000000053358A6A00000000000621F0
-t1396017770
-s401904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-c0000000053358A6A00000000000BDAE0
-t1396017770
-s776928
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-c0000000053358A6A0000000000039080
-t1396017770
-s233600
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-c0000000053358A6A000000000003CBC0
-t1396017770
-s248768
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-c0000000053358A6A000000000002CFE0
-t1396017770
-s184288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-c0000000053358A6A000000000001EB50
-t1396017770
-s125776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-c0000000053358A6A000000000001EED0
-t1396017770
-s126672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-c0000000053358A6A00000000000236B0
-t1396017770
-s145072
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-c0000000053358A6B00000000000AC500
-t1396017771
-s705792
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c0000000053358A9C0000000000000ADC
-t1396017820
-s2780
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-c0000000053358A9C000000000000514C
-t1396017820
-s20812
-
-N/Users/ryufloat/Library/MobileDevice/Provisioning Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision
-c00000000533FD0D40000000000001FD1
-t1396691156
-s8145
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch
-t1396766025
-s117608
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o
-t1396766230
-s69748
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o
-t1396766025
-s43620
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o
-t1396767016
-s56504
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.LinkFileList
-c000000005340F54900000000000003CA
-t1396766025
-s970
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o
-t1396766025
-s73484
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o
-t1396766025
-s4264
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent
-t1396767123
-s438
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_dependencies.txt
-t1396766026
-s466
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_generated_info.plist
-t1396766026
-s525
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-t1396767123
-s714
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM
-t1396767016
-s102
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist
-t1396767123
-s1534
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/PkgInfo
-t1396767123
-s8
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist
-t1396766025
-s150
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController
-t1396767016
-s73520
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision
-t1396766026
-s8145
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings
-t1396767123
-s42
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist
-t1396766025
-s370
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg
-t1396766025
-s101262
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg
-t1396766025
-s94761
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg
-t1396766025
-s98703
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg
-t1396766025
-s95954
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg
-t1396766025
-s110682
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg
-t1396766025
-s98940
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg
-t1396766025
-s82120
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg
-t1396766025
-s80673
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg
-t1396766025
-s111871
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg
-t1396766025
-s104993
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.h
-c000000005340F4C6000000000000012B
-t1396765894
-s299
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m
-c000000005340F50D00000000000003A2
-t1396765965
-s930
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.h
-c000000005340F616000000000000011D
-t1396766230
-s285
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m
-c000000005340F92800000000000009F3
-t1396767016
-s2547
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets
-c000000005340E7310000000000000088
-t1396762417
-s136
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.h
-c000000005340E7310000000000000136
-t1396762417
-s310
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m
-c000000005340F1F90000000000000985
-t1396765177
-s2437
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-01-568h@2x.jpg
-c0000000053395B440000000000018B8E
-t1396267844
-s101262
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-01@2x.jpg
-c0000000053395B480000000000017229
-t1396267848
-s94761
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-02-568h@2x.jpg
-c0000000053395B46000000000001818F
-t1396267846
-s98703
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-02@2x.jpg
-c0000000053395B4800000000000176D2
-t1396267848
-s95954
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-03-568h@2x.jpg
-c0000000053395B46000000000001B05A
-t1396267846
-s110682
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-03@2x.jpg
-c0000000053395B49000000000001827C
-t1396267849
-s98940
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-04-568h@2x.jpg
-c0000000053395B4600000000000140C8
-t1396267846
-s82120
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-04@2x.jpg
-c0000000053395B4A0000000000013B21
-t1396267850
-s80673
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-05-568h@2x.jpg
-c0000000053395B47000000000001B4FF
-t1396267847
-s111871
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/Images/tutorial-05@2x.jpg
-c0000000053395B4A0000000000019A21
-t1396267850
-s104993
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/SETutorialViewController-Info.plist
-c000000005340F95400000000000005B0
-t1396767060
-s1456
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/SETutorialViewController-Prefix.pch
-c000000005340E7310000000000000158
-t1396762417
-s344
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/en.lproj/InfoPlist.strings
-c000000005340E731000000000000002D
-t1396762417
-s45
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/main.m
-c000000005340E7310000000000000172
-t1396762417
-s370
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.h
-c000000005340F50D000000000000025F
-t1396765965
-s607
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m
-c000000005340E8300000000000000F28
-t1396762672
-s3880
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings
-c000000005340E731000000000000002D
-t1396762417
-s45
-
-N/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist
-c000000005340E73100000000000002AF
-t1396762417
-s687
-
-CBuild AST from /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m
-r0
-
-CBuild AST from /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m
-r0
-
-CBuild AST from /Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m
-r0
-
-CBuild AST from /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/main.m
-r0
-
-CBuild AST from /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbfd57e1331f1b841^7e528d1331f1b841^---0#1#1#--18"Check dependencies36"60F6E18B-FF6C-4EF3-BFD2-B959BFDF4304-
-
-CCodeSign /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-s418459923.577897
-e418459923.690065
-r1
-xCodeSign
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-o/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CodeSign Build/Products/Debug-iphoneos/SETutorialViewController.app67"CodeSign Build/Products/Debug-iphoneos/SETutorialViewController.appd102941331f1b841^f4a8b01331f1b841^-143"/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@120"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/0000000000000000^1164"CodeSign Build/Products/Debug-iphoneos/SETutorialViewController.app    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ryu Tamaki (PNYZW2H6A6)" and provisioning profile "iOS Team Provisioning Profile: *" (5A8A908B-898B-48ED-A243-2AB56863468F)    /usr/bin/codesign --force --sign C2B95C57EADBA653123DA3A5632A03D04076A3E8 --resource-rules=/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist --entitlements /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"C11BAC58-7D28-43E0-9A52-A85DB3EB7F35-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
-CCompileAssetCatalog /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets
-s418458825.677627
-e418458826.539219
-r1
-xCompileAssetCatalog
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/LaunchImage-700-568h@2x.png
-o/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Assets.car
-o/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CompileAssetCatalog Build/Products/Debug-iphoneos/SETutorialViewController.app Example/Images.xcassets102"CompileAssetCatalog Build/Products/Debug-iphoneos/SETutorialViewController.app Example/Images.xcassetsdb8aadc92cf1b841^a60a8aca2cf1b841^-494"/* com.apple.actool.compilation-results *//Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/LaunchImage-700-568h@2x.png/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Assets.car/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@85"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets/0000000000000000^1249"CompileAssetCatalog Build/Products/Debug-iphoneos/SETutorialViewController.app Example/Images.xcassets    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Images.xcassets36"75052CB8-7982-4155-A355-57C49EE686B7-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418459030.470215
-e418459030.559711
-r1
-xCompileC
-xBuild/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.h
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m235"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o Example/SEAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler327478962df1b841^3e0792962df1b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m0000000000000000^4209"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o Example/SEAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.d --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.dia -c /Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.m -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o36"07B7D45A-F063-4D61-9963-D4FCBC4E2C02-
-bCFB33040-1A1B-4B0A-9DA3-17D549B3E42A
-
-CCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418458825.514007
-e418458825.599669
-r1
-xCompileC
-xBuild/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.h
-d/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m283"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o Example/Controllers/SEExampleTutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler84bb83c92cf1b841^2b8499c92cf1b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m0000000000000000^4341"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o Example/Controllers/SEExampleTutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.d --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.dia -c /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.m -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o36"4C89EFB6-70CC-402A-B4BF-58C4CD3725C1-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418459816.387167
-e418459816.486691
-r1
-xCompileC
-xBuild/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.h
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleTutorialViewController.h
-d/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m267"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o Example/Controllers/SEExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd63863a830f1b841^dba77fa830f1b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m0000000000000000^4293"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o Example/Controllers/SEExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.d --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.dia -c /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Controllers/SEExampleViewController.m -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o36"57CF0CE5-7233-492F-A4CA-7815E39AFDCD-
-bCDD234B4-4319-441B-822D-0E6F2FED8BE9
-
-CCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418458825.514835
-e418458825.624750
-r1
-xCompileC
-xBuild/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o
-x/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m
-d/Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m274"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o SETutorialViewController/SETutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler08e783c92cf1b841^56f09fc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m0000000000000000^4309"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o SETutorialViewController/SETutorialViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.d --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.dia -c /Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewController.m -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o36"9301DE73-780F-4100-8349-4D39A5B28903-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418458825.513670
-e418458825.557301
-r1
-xCompileC
-xBuild/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/main.m
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/SEAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/main.m235"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o Example/Supporting\ Files/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbea283c92cf1b841^47ab8ec92cf1b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting%20Files/main.m0000000000000000^4191"CompileC Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o Example/Supporting\ Files/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.dia -c /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/main.m -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o36"033DDEC0-F6F8-432B-B5C0-5F466D60E9FD-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCopyPlistFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist
-s418458825.671375
-e418458825.672327
-r1
-xCopyPlistFile
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist
-xSETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist227"CopyPlistFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plistc8edabc92cf1b841^2123acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@165"file:///Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist0000000000000000^756"CopyPlistFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/SETutorialViewControllerTests-Info.plist SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj -- SETutorialViewController/SETutorialViewControllerTests/en.lproj/SETutorialViewControllerTests-Info.plist36"B628FE7A-E6F3-4582-B361-76691010BC34-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCopyStringsFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings Example/Supporting\ Files/en.lproj/InfoPlist.strings
-s418459816.517133
-e418459816.518139
-r1
-xCopyStringsFile
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings
-xExample/Supporting Files/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Example/Supporting Files/en.lproj/InfoPlist.strings154"CopyStringsFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings Example/Supporting\ Files/en.lproj/InfoPlist.stringsbd7384a830f1b841^59a584a830f1b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting%20Files/en.lproj/InfoPlist.strings0000000000000000^672"CopyStringsFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings Example/Supporting\ Files/en.lproj/InfoPlist.strings    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj -- Example/Supporting\ Files/en.lproj/InfoPlist.strings36"05278F9C-2F66-4B53-9879-7643056394B0-
-bCDD234B4-4319-441B-822D-0E6F2FED8BE9
-
-CCopyStringsFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings
-s418459923.544731
-e418459923.552750
-r1
-xCopyStringsFile
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings
-xSETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings183"CopyStringsFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings55888b1331f1b841^a29b8d1331f1b841^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/ryufloat/dev/Personal/SETutorialViewController/SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings0000000000000000^730"CopyStringsFile Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj/InfoPlist.strings SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/en.lproj -- SETutorialViewController/SETutorialViewControllerTests/en.lproj/InfoPlist.strings36"03362827-1429-4AF3-9F5F-8BDBD4AC1C40-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist
-s418458825.459266
-e418458825.460012
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist211"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist459d75c92cf1b841^0f0e76c92cf1b841^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist0034380fdfffdf42^808"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"968F3AE0-1AE3-4F1C-B572-B7E64B3AF81A-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-01-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg
-s418458825.672146
-e418458825.673526
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-01-568h@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg150"CpResource Example/Supporting\ Files/Images/tutorial-01-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg7c29acc92cf1b841^1170acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg0034380fdfffdf42^736"CpResource Example/Supporting\ Files/Images/tutorial-01-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01-568h@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-01-568h@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"385C14D3-DAAD-4802-A9EB-5EF688CD452D-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-01@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg
-s418458825.673148
-e418458825.674555
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-01@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg140"CpResource Example/Supporting\ Files/Images/tutorial-01@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg2061acc92cf1b841^f0c4acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg0034380fdfffdf42^721"CpResource Example/Supporting\ Files/Images/tutorial-01@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-01@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-01@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"6D40B303-B20D-404C-8AC3-77D5B0B008ED-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-02-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg
-s418458825.676339
-e418458825.677319
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-02-568h@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg150"CpResource Example/Supporting\ Files/Images/tutorial-02-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpgdb31adc92cf1b841^c764adc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg0034380fdfffdf42^736"CpResource Example/Supporting\ Files/Images/tutorial-02-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02-568h@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-02-568h@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"6540E935-AD3A-480D-8ED7-CF2FC7E1FFF2-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-02@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg
-s418458825.674797
-e418458825.676913
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-02@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg140"CpResource Example/Supporting\ Files/Images/tutorial-02@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpgeae8acc92cf1b841^e84dadc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg0034380fdfffdf42^721"CpResource Example/Supporting\ Files/Images/tutorial-02@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-02@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-02@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"BBD0D2DE-E9F5-47E5-B8C1-35B111BA512E-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-03-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg
-s418458825.677300
-e418458825.678318
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-03-568h@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg150"CpResource Example/Supporting\ Files/Images/tutorial-03-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg2975adc92cf1b841^f8a6adc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg0034380fdfffdf42^736"CpResource Example/Supporting\ Files/Images/tutorial-03-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03-568h@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-03-568h@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"32BA5970-BAC9-4B44-9EC8-7EAD42C13D08-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-03@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg
-s418458825.672568
-e418458825.673897
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-03@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg140"CpResource Example/Supporting\ Files/Images/tutorial-03@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpgc03cacc92cf1b841^9085acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg0034380fdfffdf42^721"CpResource Example/Supporting\ Files/Images/tutorial-03@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-03@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-03@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"8B60AD6B-2F04-45AE-B9F1-5C8A76D7AD2F-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-04-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg
-s418458825.670143
-e418458825.671927
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-04-568h@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg150"CpResource Example/Supporting\ Files/Images/tutorial-04-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpgf59dabc92cf1b841^8e06acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg0034380fdfffdf42^736"CpResource Example/Supporting\ Files/Images/tutorial-04-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04-568h@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-04-568h@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"DDBBDA6C-E70C-492C-B50A-BBA7D87EB805-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-04@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg
-s418458825.674406
-e418458825.676968
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-04@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg140"CpResource Example/Supporting\ Files/Images/tutorial-04@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg8fc3acc92cf1b841^ca54adc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg0034380fdfffdf42^721"CpResource Example/Supporting\ Files/Images/tutorial-04@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-04@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-04@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"65BB81C2-9311-4626-8D94-C2C1047CE995-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-05-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg
-s418458825.674361
-e418458825.677136
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-05-568h@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg150"CpResource Example/Supporting\ Files/Images/tutorial-05-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg9ecfacc92cf1b841^bc57adc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg0034380fdfffdf42^736"CpResource Example/Supporting\ Files/Images/tutorial-05-568h@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05-568h@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-05-568h@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"84A4E184-55AA-4C97-9070-C4C375100D78-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CCpResource Example/Supporting\ Files/Images/tutorial-05@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg
-s418458825.672950
-e418458825.673986
-r1
-xCpResource
-xExample/Supporting Files/Images/tutorial-05@2x.jpg
-xBuild/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg140"CpResource Example/Supporting\ Files/Images/tutorial-05@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpga356acc92cf1b841^b797acc92cf1b841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg0034380fdfffdf42^721"CpResource Example/Supporting\ Files/Images/tutorial-05@2x.jpg Build/Products/Debug-iphoneos/SETutorialViewController.app/tutorial-05@2x.jpg    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/Images/tutorial-05@2x.jpg /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"2D66EF4C-F16E-46F2-A219-371CBA115264-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CGenerateDSYMFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController
-s418459923.555109
-e418459923.571151
-r1
-xGenerateDSYMFile
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Generate /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM164"GenerateDSYMFile Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewControllerf52a8e1331f1b841^7a37921331f1b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM/0000000000000000^773"GenerateDSYMFile Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app.dSYM36"F2A612F0-96AB-4B42-AD7A-B97F0207FBF8-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
-CLd /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController normal arm64
-s418459816.488094
-e418459816.516193
-r1
-xLd
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController
-xnormal
-xarm64
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.LinkFileList
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEAppDelegate.o
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/main.o
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleTutorialViewController.o
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.o
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SEExampleViewController.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController99"Ld Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController normal arm6468067da830f1b841^9e2584a830f1b841^---0#0#1#--1594"Ld Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController normal arm64    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/Objects-normal/arm64/SETutorialViewController_dependency_info.dat -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/SETutorialViewController36"6933249B-6754-4D11-A172-8F7FA7F76A16-
-bCDD234B4-4319-441B-822D-0E6F2FED8BE9
-
-CProcessInfoPlistFile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/SETutorialViewController-Info.plist
-s418459923.553247
-e418459923.554644
-r1
-xProcessInfoPlistFile
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/SETutorialViewController-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Process /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/SETutorialViewController-Info.plist152"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist Example/Supporting\ Files/SETutorialViewController-Info.plistf7ae8d1331f1b841^fc538e1331f1b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting%20Files/SETutorialViewController-Info.plist0000000000000000^1222"ProcessInfoPlistFile Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist Example/Supporting\ Files/SETutorialViewController-Info.plist    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/SETutorialViewController-Info.plist -genpkginfo /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/ResourceRules.plist -additionalcontentfile /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/assetcatalog_generated_info.plist -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/Info.plist36"9ABAEE54-FC39-4E80-A805-35082850AAC1-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
-CProcessPCH /Users/ryufloat/Library/Developer/Xcode/DerivedData/SETutorialViewController-dnocohmqnsqfjibsukhfhcntwvai/Index/PrecompiledHeaders/SETutorialViewController-Prefix-artyzscjumcxjchcmrcghyimsohn_ast/SETutorialViewController-Prefix.pch.pch Example/Supporting\ Files/SETutorialViewController-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch Example/Supporting\ Files/SETutorialViewController-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418458825.460555
-e418458825.512861
-r1
-xProcessPCH
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch
-xExample/Supporting Files/SETutorialViewController-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting Files/SETutorialViewController-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile Example/Supporting Files/SETutorialViewController-Prefix.pch281"ProcessPCH Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch Example/Supporting\ Files/SETutorialViewController-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1efb75c92cf1b841^0e4b83c92cf1b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting%20Files/SETutorialViewController-Prefix.pch0000000000000000^4115"ProcessPCH Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch Example/Supporting\ Files/SETutorialViewController-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/ryufloat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-generated-files.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-own-target-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-all-target-headers.hmap -iquote /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController-project-headers.hmap -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources/arm64 -I/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/DerivedSources -F/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.dia -MMD -MT dependencies -MF /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.d -c /Users/ryufloat/dev/Personal/SETutorialViewController/Example/Supporting\ Files/SETutorialViewController-Prefix.pch -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/PrecompiledHeaders/SETutorialViewController-Prefix-ckyxcdfhryozihgbrerfvbbxuehf/SETutorialViewController-Prefix.pch.pch36"4DC4A4D9-E38D-49EA-977B-41067A42536E-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent
-s418459923.576446
-e418459923.577507
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection272"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent272"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent94a0931331f1b841^f5d7931331f1b841^---0#0#1#-19%DVTDocumentLocation2@188"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent0000000000000000^890"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Intermediates/SETutorialViewController.build/Debug-iphoneos/SETutorialViewController.build/SETutorialViewController.xcent36"5193F215-5706-4755-9125-F9C851E90F38-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
-CProcessProductPackaging /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision
-s418458826.566709
-e418458826.568088
-r1
-xProcessProductPackaging
-x/Users/ryufloat/Library/MobileDevice/Provisioning Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection220"ProcessProductPackaging /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision220"ProcessProductPackaging /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision9a2591ca2cf1b841^116f91ca2cf1b841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision0034380fdfffdf42^760"ProcessProductPackaging /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/ryufloat/Library/MobileDevice/Provisioning\ Profiles/5A8A908B-898B-48ED-A243-2AB56863468F.mobileprovision -o /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app/embedded.mobileprovision36"A7B40BD3-ED47-456D-A82B-753DA9C47AD0-
-b5A050064-B4BD-4A7B-B025-AE4FE55D92A6
-
-CTouch /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-s418459923.572114
-e418459923.575847
-r1
-xTouch
-x/Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Touch /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app64"Touch Build/Products/Debug-iphoneos/SETutorialViewController.app5186921331f1b841^be6c931331f1b841^---0#0#1#--449"Touch Build/Products/Debug-iphoneos/SETutorialViewController.app    cd /Users/ryufloat/dev/Personal/SETutorialViewController    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ryufloat/dev/Personal/SETutorialViewController/Build/Products/Debug-iphoneos/SETutorialViewController.app36"2B2F2920-CD74-4905-8043-7F757DEA37C9-
-b225B5BED-1C96-4985-A7A9-FFE03FEBC63C
-
